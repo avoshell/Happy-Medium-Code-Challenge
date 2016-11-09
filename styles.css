@@ -1,0 +1,94 @@
+/** pink: rgb(242, 146, 143)**/
+
+body {
+    background-color: white;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+li,
+h2,
+h3,
+.feature-day,
+.feature-description {
+    color: rgb(242, 146, 143);
+}
+
+.main-nav {
+    display: flex;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.main-nav li {
+    flex-grow: 1;
+    margin: 5px;
+
+}
+
+.first-sight {
+    background-image: url("Assets/Photos/pies.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 700px;
+}
+
+.feature {
+    background-image: url("Assets/Photos/food-plates.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
+
+.feature-blurb {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 150px;
+}
+
+.feature-day {
+    border-top: solid 2px rgb(242, 146, 143);
+    width: 200px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.feature-description {
+    margin-left: 100px;
+    width: 150px;
+    text-align: left;
+}
+
+.service-icons {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.service {
+    flex-grow: 1;
+}
+
+.service p {
+    margin-top: -50px;
+}
+
+.contact-info {
+    display: flex;
+    padding-left: 250px;
+    padding-right: 250px;
+    justify-content: center;
+}
+
+.contact-info li {
+    margin: 30px;
+}
